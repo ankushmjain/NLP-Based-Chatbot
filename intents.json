@@ -1,0 +1,94 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, there what can I do for you!", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {"tag": "funny",
+     "patterns": ["That was Funny", "it was Funny"],
+     "responses": ["Thanks fo that", "Thanks fo the compliment"]
+    },
+
+    {"tag": "appreciate",
+     "patterns": ["Nice", "Ok", "Yes"],
+     "responses": ["Was that Helpful", "Any time!", "That is Success For Me."]
+    },
+
+    {"tag": "yourself",
+     "patterns": ["Tell me about yourself", "who are you", "Why are you","What is your name?"],
+     "responses": ["I m Foodie Your Food Assistant!", "I m a Chatbot for Your Assistant", "You can Call me Your Friend."]
+    },
+
+    {"tag": "made",
+     "patterns": ["How are You made", "How are you created"],
+     "responses": ["I m Created by using NLP Framework", "I m created using tensorflow and keras libray."]
+    },
+
+    {"tag": "email",
+     "patterns": ["Pls give the email", "Email please", "Can You give me your email"],
+     "responses": ["MyOnlineMeal@gmail.com", "Mail us At:- MyOnlineMeal@gmail.com"]
+    },
+
+    {"tag": "phone",
+     "patterns": ["Pls give the contact details", "Can you give your phone number", "Please connect with a Executive"],
+     "responses": ["Call Us at:- 022-6589 8000 ", "Contact us At:- 022-6589 8000"]
+    },
+
+    {"tag": "joke",
+    "patterns": ["Tell me a joke", "Say a Joke", "I want to hear a joke","joke"],
+    "responses": ["What kind of tree fits in your hand? A palm tree.", "A computer once beat me at chess. But it was no match for me at kickboxing.", "Some cooks have a shellfish attitude.","The chef took some cheese and made some grate things."]
+   },
+
+    {"tag": "payment failure",
+     "patterns": ["What to do after payment failure?", "What is the next step for payment failure?", "What to do when payments are failed?","I want my refund" ],
+     "responses": ["If You have paid an incorrect amount, Simply contact the restaurant staff for a refund and pay the correct amount.","If the refund is not credited ,Our executive will report shortly.", "The refund will be credited in next 7 working days."]
+    },
+
+    {"tag": "not_accepting",
+     "patterns": ["I want it now", "Please give my money back", "Please give my credits back"],
+     "responses": ["Our Executive will Check and Definetly Refund your money if it's our Fault", "Do not worry your money is safe."]
+    },
+
+    {"tag": "order not recieved",
+     "patterns": ["Not received my order", "Didnt got my order", "Did not received my order and the agent did not accept it","Order not received till Now" ],
+     "responses": ["Please make a call on the agent's Phone Number provided.", "Please give us some time to Check","Request You to Write an email to order@xyz.com and Mention the order ID"]
+    },
+
+    {"tag": "call nt picking",
+     "patterns": ["Agent is not picking the call", "He is not picking call"],
+     "responses": ["Please provide us with the Agents Details", "Please give us some time to Check","Request You to Write an email to order@xyz.com and Mention the order ID"]
+    },
+
+    {"tag": "payments",
+     "patterns": ["Do you take UPI payments?", "Are you cash only?" ,"What are your payment methods?","Do you take online payments?"],
+     "responses": ["We accept UPI from every app as well as we have Cash on Delivery Also.", "We accept most of major Online as well as Offline payments available.","You can find the options in the billing section."]
+    },
+
+    {"tag": "wrong items",
+     "patterns": ["Order recieved is not the same", "The order has some missing items", "I have ordered some different items","I ordered different items and received different items"],
+     "responses": ["Foodie helpline will surely look into what is missing and also get in touch with the restaurant and the delivery executive. Worst case scenario, we will add a gift card of the amount in your cart.", "Wait we will connect you with our executive"]
+    },
+
+    {"tag": "offers",
+     "patterns": ["Can we get a offer", "I'd like to get a offer", "How can we avail offer" ],
+     "responses": ["We offer various rewards for our customers, You can find it in the offers section.","You will find offers in our billing section during your payment for your order."]
+    },
+
+    {"tag": "No responses",
+     "patterns": [],
+     "responses": ["Sorry Could'nt Understand What You Mean to say", "Please can you Explain It Clearly","Still Not Getting What you Mean to Say"]
+    }
+
+]
+}
