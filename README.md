@@ -8,12 +8,6 @@ The Project focuses on the interaction between the client and the system using a
 
 ## Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/Saurabhh0711/NLP-Chatbot.git
-```
-
 Go to the project directory
 
 ```bash
